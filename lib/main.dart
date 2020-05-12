@@ -1,9 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'Chat.dart';
 
 void main() {
   runApp(MyApp());
 }
+
+Firestore fireStore = Firestore.instance;
 
 class MyApp extends StatelessWidget {
   @override

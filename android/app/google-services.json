@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "956391285259",
+    "firebase_url": "https://chatapp-eb421.firebaseio.com",
+    "project_id": "chatapp-eb421",
+    "storage_bucket": "chatapp-eb421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956391285259:android:d4434b9614ad7363d85d0e",
+        "android_client_info": {
+          "package_name": "com.crabgore.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956391285259-actrbc3oao9t0g67afh18q3m9u6nu82u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPnLa7HSf7W4etDYPrRVzzaLv_Haj6HCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956391285259-actrbc3oao9t0g67afh18q3m9u6nu82u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
