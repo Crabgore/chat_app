@@ -20,6 +20,9 @@ dependencies:
   flutter:
     sdk: flutter
   cloud_firestore: ^0.13.5
+  firebase_auth: 0.16.0
+  fluttertoast: ^4.0.1
+  shared_preferences: 0.5.6+3
   uuid: any
   intl: ^0.16.1
 

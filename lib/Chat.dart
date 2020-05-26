@@ -1,5 +1,6 @@
 import 'package:chatapp/CreateChat.dart';
 import 'package:chatapp/OneChat.dart';
+import 'package:chatapp/drawer.dart';
 import 'package:chatapp/main.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -52,6 +53,7 @@ class _ChatState extends State<Chat> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      drawer: MainDrawer(),
       appBar: new AppBar(
         title: new Text('Сам чат'),
       ),
@@ -104,12 +106,7 @@ class _ChatState extends State<Chat> {
               Expanded(
                 child: Column(children: <Widget>[
                   Text(
-                    title,
-                    style: TextStyle(
-                        fontSize: 16.0,
-                        color: const Color(0xFF000000),
-                        fontWeight: FontWeight.w600,
-                        fontFamily: "Roboto"),
+                    title
                   ),
                 ]),
               ),
